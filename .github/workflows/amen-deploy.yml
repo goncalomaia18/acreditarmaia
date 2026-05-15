@@ -17,7 +17,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ acredk.ftp.tb-hosting.com }}
-        username: ${{ goncalo@acreditarmaiapt }}
-        password: ${{ Acreditarnops2628! }}
+        username: ${{ secrets.AMEN_FTP_USERNAME }}
+        password: ${{ secrets.AMEN_FTP_PASSWORD }}
         # NOTA: Confirma se na Amen a tua pasta é /public_html/ ou /www/
         server-dir: /

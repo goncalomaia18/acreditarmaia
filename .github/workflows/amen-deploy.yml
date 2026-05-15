@@ -1,0 +1,23 @@
+name: Deploy para Amen.pt
+
+on:
+  push:
+    branches:
+      - main  # O envio acontece sempre que fazes push para a branch main
+
+jobs:
+  deploy:
+    name: Enviar ficheiros para a Amen
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Obter código do repo
+      uses: actions/checkout@v4
+
+    - name: 🚀 Sincronizar com FTP da Amen
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ acredk.ftp.tb-hosting.com }}
+        username: ${{ goncalo@acreditarmaiapt }}
+        password: ${{ Acreditarnops2628! }}
+        # NOTA: Confirma se na Amen a tua pasta é /public_html/ ou /www/
+        server-dir: /

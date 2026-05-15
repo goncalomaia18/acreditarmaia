@@ -20,4 +20,4 @@ jobs:
         username: ${{ secrets.AMEN_FTP_USERNAME }}
         password: ${{ secrets.AMEN_FTP_PASSWORD }}
         # NOTA: Confirma se na Amen a tua pasta é /public_html/ ou /www/
-        server-dir: /
+        server-dir: /www/

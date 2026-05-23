@@ -330,8 +330,8 @@ body {
 }
 
 .img-mandataria {
-    width: 250%;
-    max-width: 500px;
+    width: 500%;
+    max-width: 1150px;
     height: auto;
 }
 
@@ -357,11 +357,7 @@ body {
     text-align: right;
 }
 
-.caixa-assinatura-direita .img-assinatura {
-    height: 100px;
-    width: auto;
-    margin-bottom: 5px;
-}
+
 
 .caixa-assinatura-direita .cargo-verde {
     font-weight: 800;

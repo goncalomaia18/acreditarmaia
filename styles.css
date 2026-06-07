@@ -273,6 +273,43 @@ body {
     margin-bottom: 8%;
 }
 
+.img-candidata-seccao {
+    width: 200%;
+    max-width: 600px;
+    height: auto;
+
+    position: relative; 
+    top: 0px;
+}
+
+.img-candidata-seccao-barca {
+    width: 200%;
+    max-width: 400px;
+    height: auto;
+
+    position: relative; 
+    top: 0px;
+}
+
+.img-candidata-seccao-pr {
+    width: 200%;
+    max-width: 500px;
+    height: auto;
+
+    position: relative; 
+    top: 0px;
+}
+
+.img-texto-sobreposto {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    width: 90%;
+    max-width: 350px;
+
+    margin-bottom: 8%;
+}
+
 
 
 /* --- Responsividade (Telemóveis) --- */
@@ -356,8 +393,6 @@ body {
     align-self: flex-end; /* Encosta o bloco todo à direita do container flex */
     text-align: right;
 }
-
-
 
 .caixa-assinatura-direita .cargo-verde {
     font-weight: 800;

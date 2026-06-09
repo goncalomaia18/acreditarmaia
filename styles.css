@@ -976,7 +976,7 @@ body {
 /* ================================================= */
 .menu-site {
     position: relative;
-    z-index: 10; /* Garante que fica por cima do desenho da cidade */
+    z-index: 9999; /* Garante que fica por cima do desenho da cidade */
 }
 
 .menu-lista {

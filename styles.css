@@ -1086,7 +1086,10 @@ html {
         display: none; /* Esconde e só mostra com :hover ou cliques */
     }
 
-    .menu-item-com-submenu:hover .submenu {
+    /* --- A CORREÇÃO ESTÁ AQUI ABAIXO --- */
+    .menu-item-com-submenu:hover .submenu,
+    .menu-item-com-submenu:focus-within .submenu,
+    .menu-item-com-submenu:active .submenu {
         display: block;
         transform: none;
     }

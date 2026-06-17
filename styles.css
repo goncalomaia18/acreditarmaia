@@ -338,6 +338,9 @@ body {
     .img-texto-sobreposto {
         right: auto;
     }
+    .img-candidata {
+        top: 0px;
+    }
 }
 
 /* ================================================= */
